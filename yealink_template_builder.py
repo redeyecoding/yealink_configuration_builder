@@ -6,7 +6,7 @@ import yealink_common_builder
 common_file_config_path = 'C:\\Users\\jeffrey\\Documents\\YEALINK_UPDATED_TEMPS-2021\\YEALINK_CONFIG_UPDATER\\YEALINK-COMMON-BUILDS\\'
 completed_configs_directory = 'C:\\Users\\jeffrey\\Documents\\YEALINK_UPDATED_TEMPS-2021\\YEALINK_CONFIG_UPDATER\\YEALINK_CONFIGS\\COMPLETED_YEALINK_CONFIGS\\'
 
-with open('VOC-DEFAULT-YEALINK-MAC-TEMPLATE.cfg','r') as yealink_configs:
+with open('<COMPANY-NAME-DEFAULT-YEALINK-MAC-TEMPLATE.cfg','r') as yealink_configs:
     configs_list  = yealink_configs.readlines()
 
 
